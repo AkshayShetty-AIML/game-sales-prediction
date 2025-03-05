@@ -49,12 +49,9 @@ pip install -r requirements.txt
 python scripts/data_preprocessing.py
 
 4️⃣ Train the Model
-python scripts/model_training.py
+python scripts/model_training_evaluation.py
 
-5️⃣ Evaluate Model Performance
-python scripts/model_evaluation.py
-
-6️⃣ Run the API (for Predictions)
+5️⃣ Run the API (for Predictions)
 cd deployment
 python app.py
 
